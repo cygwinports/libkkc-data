@@ -1,0 +1,13 @@
+NAME="libkkc-data"
+VERSION=0.2.7
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Japanese Kana Kanji conversion library (models)"
+DESCRIPTION="libkkc provides a converter from Kana-string to
+Kana-Kanji-mixed-string. It was named after kkc.el in GNU Emacs, a
+simple Kana Kanji converter, while libkkc tries to convert sentences
+in a bit more complex way using N-gram language models."
+HOMEPAGE="https://bitbucket.org/libkkc"
+SRC_URI="https://bitbucket.org/libkkc/libkkc-data/downloads/libkkc-data-${VERSION}.tar.xz"
+
+ARCH=noarch
